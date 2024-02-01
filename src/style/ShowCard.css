@@ -1,0 +1,45 @@
+.card{
+    border: 1px solid red;
+    border-radius: 6px;
+    background-color: transparent;
+    
+}
+
+.card img{
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 3px #c2080e;
+}
+
+.card-body h1{
+    font-size: 30px;
+    color: #fff;
+}
+
+.ratings span{
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-body .btn{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+  }
+  .ratings{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+  }
+  @media(max-width: 900px){
+    .ratings{
+        display: flex;
+        flex-direction: column;
+     justify-content: space-between;
+      }
+  }

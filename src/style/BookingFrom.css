@@ -1,0 +1,52 @@
+
+
+label{
+    color: red;
+    font-size: 20px;
+   
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid red !important;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 20px;
+    
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+select{
+    background: transparent;
+    color: red;
+    border: 2px solid red;
+}
+
+.confirm-btn{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    align-items: center;
+  }
+  @media(max-width: 900px){
+
+    .confirm-btn{
+        background-color: transparent;
+        border: 2px solid red;
+        color: red;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      position: relative;
+      top: 20px;
+        align-items: center;
+      }
+  }
